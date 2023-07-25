@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .title-1 {
+    @apply font-semibold text-4xl
+  }
+  
+  .title-2 {
+    @apply font-bold text-2xl
+  }
+
+  .title-3 {
+    @apply font-medium text-xl
+  }
+
+  .text-1 {
+    @apply font-normal text-xl
+  }
+
+  .text-2 {
+    @apply font-medium text-base
+  }
+
+  .text-3 {
+    @apply font-semibold text-sm
+  }
+
+  .text-4 {
+    @apply font-medium text-sm
+  }
+
+  .text-5 {
+    @apply font-normal text-sm
+  }
+
+  .text-6 {
+    @apply font-medium text-xs
+  }
+}
+
 body {
   width: 100%;
   background: #212529;
